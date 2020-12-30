@@ -158,7 +158,7 @@ class NoCaptcha
     public function verifyRequest(Request $request)
     {
         return $this->verifyResponse(
-            $request->get('g-recaptcha-response'),
+            $request->get('h-captcha-response'),
             $request->getClientIp()
         );
     }
