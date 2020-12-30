@@ -7,8 +7,8 @@ use GuzzleHttp\Client;
 
 class NoCaptcha
 {
-    const CLIENT_API = 'https://www.google.com/recaptcha/api.js';
-    const VERIFY_URL = 'https://www.google.com/recaptcha/api/siteverify';
+    const CLIENT_API = 'https://hcaptcha.com/1/api.js';
+    const VERIFY_URL = 'https://hcaptcha.com/siteverify';
 
     /**
      * The recaptcha secret key.
