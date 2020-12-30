@@ -221,7 +221,7 @@ class NoCaptcha
         if (!isset($attributes['class'])) {
             $attributes['class'] = '';
         }
-        $attributes['class'] = trim('g-recaptcha ' . $attributes['class']);
+        $attributes['class'] = trim('h-captcha ' . $attributes['class']);
 
         return $attributes;
     }
